@@ -11,7 +11,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: echo a string 
-        run: eccho Hello, world!
+        run: echo Hello, world!
       - name: multiline script
         run: 
           node -v
